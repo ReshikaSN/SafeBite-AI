@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['cutting board', 'hand', 'jelly jar', 'knife', 'paper towel', 'peanut butter jar', 'plate', 'rolled tortilla', 'tortilla']
+
+roboflow:
+  workspace: ptg
+  project: cookbook-fine-tuning
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ptg/cookbook-fine-tuning/dataset/1

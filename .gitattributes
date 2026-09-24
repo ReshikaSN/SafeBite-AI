@@ -1,0 +1,4 @@
+data/kitchen/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+data/kitchen/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+data/kitchen/**/*.png filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
